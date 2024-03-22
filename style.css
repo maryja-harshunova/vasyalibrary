@@ -1,0 +1,515 @@
+/* general */
+
+* {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.max-size-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  background-color: #0C0C0E;
+  display: flex;
+  padding: 20px;
+  gap: 40px;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: Forum;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 2%;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0%;
+}
+
+/* hero */
+
+.hero {
+  height: 600px;
+  background-image: url(./img/welcome-background.png);
+  display: flex;
+}
+
+.hero div {
+  background-color: #0C0C0E;
+  width: 600px;
+  margin: 220px 0 160px;
+}
+
+.hero h2 {
+  color: rgb(255, 255, 255);
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 35px 40px;
+}
+
+/* about-section */
+
+.gallary {
+  margin: 20px 20px 0;
+}
+
+.gallary h2 {
+  color: rgb(12, 12, 14);
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.heading-underline {
+  background: rgb(12, 12, 14);
+  width: 50px;
+  height: 1px;
+  margin: 20px auto 40px;
+}
+
+.gallary p {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallary-wrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.gallary-buttons-wrapper {
+  margin: 40px auto 60px;
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-gallary {
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  background: rgb(12, 12, 14);
+}
+
+.button-gallary.active {
+  background: rgb(187, 148, 95);
+}
+
+/* favorites */
+
+.favorites {
+  margin: 20px 20px 0;
+}
+
+.favorites h2 {
+  color: rgb(12, 12, 14);
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.form-heading {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+form {
+  margin: 40px 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+input {
+  width: 17px;
+  height: 17px;
+  accent-color: black;
+}
+
+label {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 70px;
+}
+
+label.active {
+  font-weight: 700;
+}
+
+.cards-wrapper ul {
+  width: 550px;
+  height: 555px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 175px 15px 20px;
+  position: relative;
+}
+
+.cards-wrapper h3 {
+  color: rgb(0, 0, 0);
+  font-family: Forum;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.cards-wrapper h4 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1.9px;
+  text-align: left;
+}
+
+h4 span {
+  text-transform: uppercase;
+}
+
+.card-about-text {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.card-button button {
+  width: 75px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-button button:hover {
+  opacity: 0.7;
+}
+
+.card-button button:active {
+  opacity: 0.5;
+}
+
+.card-button .own {
+  border: 1px solid #BB945F;
+  color: #BB945F;
+  cursor: default;
+}
+
+.card-button .own:active {
+  opacity: 1;
+}
+
+.card-button .own:hover {
+  opacity: 1;
+}
+
+.card-button {
+  margin-top: auto;
+}
+
+.card-image {
+  position: absolute;
+  bottom: 0;
+  right: -40px;
+}
+
+.card-image img {
+  display: block;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 260px;
+}
+
+/* coffee shop */
+
+.coffee-shop {
+  margin-top: 40px;
+  padding: 20px 20px 0 20px;
+}
+
+.coffee-shop h2 {
+  color: rgb(12, 12, 14);
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.coffee-shop p {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.menu-list h3 {
+  color: rgb(187, 148, 95);
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.menu-list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.coffee-tea {
+  width: 442px;
+}
+
+.desserts {
+  width: 482px;
+}
+
+.menu-list ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.menu-item-name {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.menu-item-line {
+  width: 100px;
+  height: 1px;
+  background-color: rgb(187, 148, 95);
+}
+
+.coffee-tea .menu-item-line {
+  margin-left: auto;
+}
+
+.menu-item-price {
+  color: rgb(0, 0, 0);
+  font-family: Forum;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list.desserts {
+  text-align: right;
+}
+
+.menu-list.desserts ul {
+  justify-content: end;
+}
+
+/* contacts */
+
+.contacts {
+  margin: 60px 20px 0;
+}
+
+.contacts h2 {
+  color: rgb(12, 12, 14);
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.contacts-wrapper ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.contacts-wrapper h3 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.contacts-wrapper .phones {
+  margin-bottom: 20px;
+}
+
+.contacts-wrapper li {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.contacts-wrapper a {
+  color: #0C0C0E;
+}
+
+.map-contacts-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.staff {
+  margin-top: 40px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 40px;
+  padding: 20px 20px 45px;
+  background-color: #0C0C0E;
+}
+
+.address,
+.work-time {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.address ul {
+  display: flex;
+  gap: 20px;
+}
+
+.work-time {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+}
+
+.footer-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+footer>ul {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
